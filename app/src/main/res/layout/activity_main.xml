@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kakaotalk1"
+            android:layout_width="215dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:translationY="30dp"
+            app:srcCompat="@drawable/ace2" />
+
+        <ImageView
+            android:id="@+id/kakaotalk2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:translationY="30dp"
+            app:srcCompat="@drawable/ace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kakaotalk3"
+            android:layout_width="215dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:translationY="30dp"
+            app:srcCompat="@drawable/ace3" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#9EA811"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="공업사 검색"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationY="60dp"
+        tools:visibility="visible" />
+
+</LinearLayout>
